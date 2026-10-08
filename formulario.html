@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario entrega</title>
+</head>
+
+<body>
+<h1>Cadastro de entrega</h1>    
+
+<form action="processar.php" method="POST">
+    <label for="destinatario">Destinatário: </label>
+    <input type="text" id="destinatario" name="destinatario">
+
+    <br><br>
+
+    <label for="codigo">Código: </label>
+    <input type="number" id="codigo" name="codigo">
+
+    <br><br>
+
+    <label for="cidade">Cidade: </label>
+    <input type="text" id="cidade" name="cidade">
+
+    <br><br>
+
+    <label for="peso">Peso(kg): </label>
+    <input type="number" id="peso" name="peso">
+
+    <button type="submit">Enviar</button>
+
+</body>
+</html>
